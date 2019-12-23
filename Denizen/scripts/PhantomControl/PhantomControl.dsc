@@ -6,4 +6,4 @@ PhantomControl:
     - foreach <server.list_online_players> as:plr:
       - if <[plr].has_permission[phantomcontrol.disable]>:
         - statistic time_since_rest set 0 player:<[plr]>
-        - narrate "Your time_since_rest stat has been reset." targets:<[plr]>
+
